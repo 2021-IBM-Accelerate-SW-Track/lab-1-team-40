@@ -50,9 +50,9 @@ function TodoForm(props) {
                 className='todo-input'
                 ref={inputRef}
               />
-              <Button onClick={handleSubmit} className='new-item-button'>
+              <button onClick={handleSubmit} className='new-item-button'>
                 Add list item
-              </Button>
+              </button>
             </>
           )}
         </form>
